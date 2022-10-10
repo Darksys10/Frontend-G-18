@@ -1,0 +1,74 @@
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/Practica/src/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 100vh;
+    
+}
+
+.article__title,.article__keywords,.article__presentation{
+    letter-spacing: 1.5px;
+    margin: 0;
+    font-size: 40px;
+    
+}
+
+.main{
+    background-color: hsla(221, 95%, 59%, 0.37);
+    display: flex;
+    flex-direction: column;
+    gap: 2rm;
+    padding: 30rem;
+    border-radius: 50%;
+}
+
+.header_profesional-image-container{
+    max-width: 250px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 35rem;
+    
+}
+
+.header_profesional-image{
+    border-radius: 25%;
+    width: 100%;
+    
+}
+
+.header_profesional-image:hover{
+    border: rgba(9, 252, 211, 0.486) solid 10px;
+}
+
+
+.header{
+    display: flex;
+    
+}
+
+.footer{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+
+}
+
+.footer__link-icon-container{
+    display: flex;
+    transition: all 0.5s;
+    max-width: 5rem;
+}
+
+.footer__link-icon-container:hover{
+    transform: scale(1.25);
+}
+
+.footer__link-icon{
+    width: 100%;
+}
