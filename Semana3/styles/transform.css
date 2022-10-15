@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form{
+    border: 2px solid white;
+    padding: 50px;
+    border-radius: 8px;
+
+}
+
+.form h2{
+    letter-spacing: 2px;
+    color: rgb(76, 76, 179);
+}
+
+.input-form{
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+/*
+linear -la misma evlocidad desde que empieza hasta que termina
+
+ease-in -empieza lento y acaba rapido 
+ease-out empieza rapido y acaba lento
+ese-in-out empieza lento y acba lento*/
+
+.btn-primary{
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(233, 166, 78);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+}
+
+/*
+usar transform cuando queremos cambiar el estado de una propiedad */
+
+.btn-primary:hover{
+    background-color: rgb(127, 67, 196);
+
+}
+
+.container-help{
+    transition: ease-in 5s;
+}
+
+.img-help{
+    width: 15px;
+    height: 15px;
+    
+}
+
+.text-help{
+    display: none;
+    max-width: 300px;
+    max-height: 300px;
+    transition: ease-in 2s;
+
+
+}
+
+.button-help{
+    border: none;
+    background-color: transparent;
+}
+
+.container-help:hover .text-help{
+    display: block;
+}

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blue;
+}
+
+.section-principal{
+    display: flex;
+}
+
+.section-principal div{
+    width: 20%;
+    height: 100px;
+    border: solid;
+}
+
+.box1{
+    background-color: yellow;
+
+}
+
+.box2{
+    background-color: red;
+}
+
+.box3{
+    background-color: green;
+}
+
+
+/*dentro de los responsive tenemos tres medidas standar   1200 a 1900 px es el tamaño desktop/  de 90 a 700 tablet/ 680 a 400 para mobile*/
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: blueviolet;
+        display: grid;
+        
+    }
+
+    .section-principal{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-principal div{
+        width: 50%;
+        height: 100px;
+        border: solid;
+    }
+    .box3{
+        background-color: brown;
+    }
+    .box1{
+        background-color: crimson;
+    }
+    .box2{
+        border-radius: 50%;
+    }
+}

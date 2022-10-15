@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/Practica/src/fondo.jpg);
+    margin-right: 100px ;
+    background-image: url(/Semana2/Practica/src/fondo.jpg);
     background-size: cover;
     background-position: center;
     color: #ffffff;
@@ -52,6 +53,11 @@
     
 }
 
+.article{
+    
+
+}
+
 .footer{
     display: flex;
     gap: 1rem;
@@ -72,3 +78,21 @@
 .footer__link-icon{
     width: 100%;
 }
+
+/* @media only screen and (max-width: 896px){
+    body{
+        
+        
+    }
+    .header{
+        
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    .article{
+        max-width: 200px 100px;
+        
+    }
+
+} */

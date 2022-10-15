@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+}
+
+/*SECTION HEADER*/
+.header{
+    display: flex;
+    margin: 15px 15px 15px 15px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.nav ul li{
+    padding: 10px;
+}
+
+/*SECTION CONTAINER 1*/
+
+.section{
+    display: flex;
+
+}
+
+.left{
+    
+    margin: 60px 0px 0px 50px;
+    padding: 20px;
+    
+    
+}
+
+.btn-desc{
+    margin-top: 100px;    
+    
+}
+
