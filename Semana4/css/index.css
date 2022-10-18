@@ -1,0 +1,15 @@
+@import url(./modules/variables.css);
+@import url(/Semana4/css/modules/section.css);
+@import url(./modules/animation.css);
+
+*{
+
+}
+
+body{
+    background-color: var(--primary-color);
+    background-color: var(--primary-theme-color);
+    color: var(--primary-text-color);
+    font-family: var(--primary-font-family);
+}
+

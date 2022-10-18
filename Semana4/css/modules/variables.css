@@ -1,0 +1,33 @@
+:root{
+    --primary-color: #08122b;
+    --secondary-color: #0e2b35;
+    --primary-text-color: rgb(95, 19, 19);
+    --primary-highlight-color: #61DAFB;
+    --primary-font-family: arial;
+    --padding-section: 1.5rem;
+    --padding-color-1: #FED80D;
+    --padding-container:1rem;
+    --max-width-container:640px;
+    --letter-color-1: #018C7E;
+    --letter-color-2: #ad00b3;
+    --letter-color-3: #38215c;
+    --letter-color-4: #dd5ac7;
+    --letter-color-5: #85b953;
+    --letter-color-6: #d3774c;
+
+
+}
+
+@media (min-width: 760px){
+    :root{
+        --padding-section:2rem;
+        --padding-container:0.75rem;
+        --max-width-container:760px;
+        --primary-theme-color: red;
+        --letter-color-1: #f7f314;
+        --letter-color-2: #b42834;
+        --letter-color-3: #0a505c;
+        align-items: ;
+
+    }
+}

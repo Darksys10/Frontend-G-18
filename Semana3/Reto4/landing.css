@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: white;
+}
+
+#header{
+    background:url('./images/bg-hero-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: hsl(191deg 89% 96%);
+    display:grid;
+    grid-template-rows: 1fr 5fr;
+    padding: 0px 50px;
+    padding-bottom: 30px;
+    
+}
+
+#header > nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header > nav >button{
+    width: 50px 30px 10px 10px;
+}

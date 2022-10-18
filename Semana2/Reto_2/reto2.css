@@ -35,10 +35,7 @@ section{
 .card_foto{
     display: flex;
     justify-content: center;
-    margin: 20px;
-    
-    
-    
+    margin: 20px;    
 }
 
 .img{
